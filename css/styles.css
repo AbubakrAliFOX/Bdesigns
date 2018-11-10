@@ -341,3 +341,14 @@ position: relative;
 .image_on, #home:hover .image_off{
    display:inline-block;
 }
+
+
+.cv-bottom {
+	margin-top: 60px;
+}
+
+.mycv embed {
+	width: 100%;
+	height: 1000px;
+
+}
