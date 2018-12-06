@@ -215,10 +215,9 @@ aside #aside {
 footer {
 	clear: both;
 	text-align: center;
-	padding: 10px;
+	padding: 6px 0 1px 0;
 	background-color: #35424a;
 	color: white;
-	font-weight: bold;
 	border-top: solid 6px lightseagreen;
 
 	
@@ -281,40 +280,160 @@ position: relative;
 
 }
 
+   /*CEO IMAGe*/
+
+
+.info {
+	margin: 
+}
+
+.job a, .job a:hover, .job a:focus {
+	text-decoration: none;
+
+}
+}
+.job a {
+	color: blue;
+	margin-bottom: 15px;
+}
+
+.job:hover {
+	color: lightseagreen;
+	cursor: pointer;
+}
+
+.name {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+
+.infoBox {
+	transition: 0.3s;
+
+}
+
+
+.infoBox:hover {
+	background-color: gainsboro;
+	transition: 0.3s;
+
+}
 
 .abubakr-img {
-	background-color: lightseagreen;
-	padding: 100px;
-	border-radius: 20%;
+	background-color: white;
+	padding: 70px;
 	margin-bottom: 100px;
+}
+
+.abubakr-img:hover {
+/*	background-color: #35424a;
+	color: white;
+	padding: 100px;*/
 }
 
 .abubakr-img a{
 	text-decoration: none;
-	color: white;
+	color: black;
 }
 
-.abubakr-img:hover {
-	background-color: #35424a;
-	color: white;
-	padding: 100px;
-}
-
-.abubakr-img {
-	background-color: lightseagreen;
-	padding: 100px;
-	border-radius: 20%;
-}
 
 
 .abubakr-img img{
-	border: solid 3px #35424a;
+	/*border: solid 3px #35424a;*/
 }
 
 
 .abubakr-img img:hover{
-	border: solid 3px lightseagreen;
+	/*border: solid 3px lightseagreen;*/
 }
+
+.p-sm i {
+	color: #35424a;
+	margin: 8px;
+	width: 10px;
+	height: 10px;
+	transition: 0.4s;
+
+
+}
+
+.p-sm i:hover {
+	transform: scale(1.4);
+	border-radius: 50px;
+	color: blue;
+
+	
+}
+
+.p-sm2 i {
+	transition: 0.4s;
+	margin-top: 30px;
+}
+
+.p-sm2 i:hover {
+	font-size: 30px;
+	cursor: pointer;
+}
+
+.toggleUp {
+	display: none;
+}
+
+
+
+
+
+
+/* End of CEO IMAGE */
+
+
+
+/* Toggle Down */
+
+
+.empDetails {
+	display: none;
+	transition: 10s;
+
+}
+
+
+.empDetails h5 {
+	text-align: left;
+	font-size: 14px;
+}
+
+.empDetails img {
+	margin: 0 3px;
+}
+
+.empDetails i {
+	color: #35424a;
+	margin: 0 4px;
+	font-size: 25px;
+}
+
+.empDetails i {
+	transition: 0.3s;
+}
+
+.empDetails i:hover {
+	margin-top: -3px;
+	transform: scale(1.2);
+	color: blue;
+	
+}
+
+.empDetails img {
+	transition: 0.3s;
+}
+.empDetails img:hover {
+	transform: scale(1.2);
+}
+
+
+/* End of Toggle Down*/
 
 
 #hideimg {
