@@ -6,10 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="../img/74488414_letter_b_logo_icon_design_template_elements_on_blue_background__Oa5_icon.ico">
     <title>Buck's Designs | About</title>
+    <script src="../js/js.js" type="text/javascript"></script>
     <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
     <link href="../css/styles.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=ABeeZee" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Coda" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    
   </head>
 
 
@@ -42,17 +45,20 @@
 
   
    <div id="newsletter2" class="container-fluid header">
-     <h3>Quotes</h3>
+    <div class="container">
+      <h3>Quotes</h3>
      <div> 
       <p>"I Started learning programming languages only recently, and I'm proud to say that I have picked up on it quite fast,
       I finished HTML5 & CSS in 6 days!, and now I'm working on my JavaScript in addition to Java" <div id="abubakr"> ~Abubakr Ali</div></p>
       </div>
     </div>
+    </div>
+     
 
 
 
 
-    <div class="container">
+    <div id="mm" class="container">
       <article> 
         <div class="aboutus-content col-lg-6 col">
           <h4 class="aboutus">About Us</h4>
@@ -60,7 +66,7 @@
             We dream about being the largest website designing company and to make our customers pleased, hopefully.
             This company has only one employee, who is the CEO of the company at the same time.</p>
             
-            <h4>Learn more about our members:</h4><br><br>
+            <h4>Meet Our Team</h4><br><br>
         </div>
       </article>
     </div>
@@ -69,20 +75,56 @@
     <section class="container abubakr-dis">
       <div class="row">
 
-        <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12"> 
+        <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 "> 
         </div>
 
-       <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 abubakr-img text-center"> <a href="../page/cv.html">
-      <img height="150" width="150" class="img-circle text-center " src="../img/26169571_1565624736852194_3625723898475772948_n.jpg"><br> <br>
+       <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 abubakr-img infoBox text-center">
+      <img height="150" width="150" class=" text-center " src="../img/26169571_1565624736852194_3625723898475772948_n.jpg"><br> 
         <span>
-            Abubakr Ali<br>
-             CEO, creator and designer of Buck’s Designs.
+
+          <div class="info text-center container">
+            <h6 class="name">Abubakr A. Eldaw
+           </h6>
+           <h6 ><a class="job" href="https://en.wikipedia.org/wiki/Chief_programmer_team" target="_blank">Chief Programmer</a></h6>
+           </div>
 
           </span>
-        </a></div>
+          <div class="p-sm">
+            <a target="_blank" href="https://web.facebook.com/AB.TheFOX">
+              <i class="fab fa-facebook-f"></i></a>
+            <a target="_blank" href="https://www.instagram.com/abubakr_ali7000/">
+              <i class="fab fa-instagram"></i></a>
+            <a target="_blank" href="https://www.linkedin.com/in/abubkr-eldaw-a90431148">
+              <i class="fab fa-linkedin"></i></a>
+            <a target="_blank" href="CV.html">
+              <i class="fas fa-info-circle"></i></a>
+          </div>
+        <div class="p-sm2">
+          <span class="toggleDown">
+            <i  onclick="displayInfo()" class="fas fa-angle-double-down"></i>
+          </span>
+
+          <span class="toggleUp">
+            <i  onclick="hideInfo()" class="fas fa-angle-double-up"></i>
+          </span>
+            
+
+          </div>
+          <div class="empDetails">
+            <h5><br>Skills: <i title="HTML5" class="fab fa-html5"></i>  <i title="CSS3" class="fab fa-css3-alt"></i> <i title="JavaScript" class="fab fa-js-square"></i> <i title="Designing" class="fas fa-brush"></i>
+
+             <br><br>Projects: <a target="_blank" href="../index.html"><img title="Buscks Designs" class="img-circle" width="30" height="30" src="../img/74488414_letter_b_logo_icon_design_template_elements_on_blue_background__Oa5_icon.ico"></a>
+
+              <a target="_blank" href="http://www.ahmadcj.tk"><img title="Ahmad-Cj" class="img-circle" width="30" height="30" src="../img/icon_hbm_icon.ico"></a>
+
+
+            </h5>
+          </div>
 
         <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">        
         </div>
+
+
         
       </div>
       
@@ -90,8 +132,9 @@
     
 
 
-    <footer class="container-fluid">
+    <footer class="container-fluid footer panel panel-default panel-body panel-footer">
       <p>Buck's Designs  |  Copyrights Reserved &copy; 2018</p>       
     </footer>
+    
   </body>
 </html>
